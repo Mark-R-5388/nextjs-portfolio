@@ -1,0 +1,29 @@
+.header {
+  padding: 2rem 0;
+  width: 100%;
+  background: #04bf68;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.nav_container {
+  margin: 0 auto;
+  max-width: 75rem;
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+
+  .nav_link {
+    margin: 0 1rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: 1.5px;
+    color: #1b1b1b;
+    transition: border-bottom 1s, color 1s;
+  }
+
+  .nav_link:hover,
+  .nav_link:focus {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+  }
+}
