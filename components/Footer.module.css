@@ -1,0 +1,42 @@
+.footer {
+	padding: 2rem 0;
+	width: 100%;
+	background: #04bf68;
+	box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.footer_container {
+	border: 1px solid red;
+	margin: 0 auto;
+	max-width: 75rem;
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer_text {
+	padding-left: 1rem;
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+
+.footer_contact_container {
+	border: 1px solid blue;
+	padding-right: 1rem;
+	display: flex;
+}
+
+.footer_contact_email {
+	margin: 0 0 1rem;
+	font-size: 1.15rem;
+	letter-spacing: 1.2px;
+	font-weight: 600;
+}
+
+.footer_contact_social_container {
+	display: flex;
+}
+
+.footer_social_link {
+}
