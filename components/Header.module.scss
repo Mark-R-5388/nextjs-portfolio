@@ -18,12 +18,12 @@
     font-size: 1.25rem;
     letter-spacing: 1.5px;
     color: #1b1b1b;
-    transition: border-bottom 1s, color 1s;
+    transition: text-decoration 1s, color 1s;
   }
 
   .nav_link:hover,
   .nav_link:focus {
-    border-bottom: 2px solid #fff;
+    text-decoration: underline;
     color: #fff;
   }
 }

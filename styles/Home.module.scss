@@ -1,8 +1,9 @@
-.main {
-  min-height: calc(100vh - (29px + 64px) - (67px + 64px));
+.page_container {
+  min-height: 100vh;
 }
 
 .main {
+  padding: 5rem 0;
   display: flex;
   justify-content: center;
 }
@@ -19,6 +20,7 @@
   position: relative;
   height: 35rem;
   width: 50%;
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
 
   .image {
     position: absolute;

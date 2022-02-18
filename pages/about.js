@@ -26,7 +26,13 @@ const About = () => {
         <section className={styles.section_one}>
           <div className={styles.section_container}>
             <div className={styles.section_one_image_container}>
-              {/* <Image className={styles.section_one_image} /> */}
+              <Image
+                priority
+                className={styles.section_one_image}
+                src="/images/about/profile-color.jpg"
+                alt="Mark Rose smiling in color"
+                layout="fill"
+              />
             </div>
             <div className={styles.section_one_text_container}>
               <h1>About Me</h1>
