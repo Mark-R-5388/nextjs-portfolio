@@ -1,0 +1,19 @@
+.main {
+	h1 {
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+}
+
+.portfolio_section {
+	border: 1px solid green;
+	max-width: 1200px;
+	width: 95%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+}
