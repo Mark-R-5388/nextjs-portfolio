@@ -16,12 +16,60 @@ const Portfolio = () => {
 			<main className={styles.main}>
 				<h1>Portfolio</h1>
 				<section className={styles.portfolio_section}>
-					<ProjectCard />
-					<ProjectCard />
-					<ProjectCard />
-					<ProjectCard />
-					<ProjectCard />
-					<ProjectCard />
+					<ProjectCard
+						title='title'
+						languages='html, css, javascript'
+						githubLink='#'
+						websiteLink='#'
+					/>
+					<ProjectCard
+						title='title'
+						languages='html, css, javascript'
+						githubLink='#'
+						websiteLink='#'
+					/>
+					<ProjectCard
+						title='title'
+						languages='html, css, javascript'
+						githubLink='#'
+						websiteLink='#'
+					/>
+					<ProjectCard
+						title='title'
+						languages='html, css, javascript'
+						githubLink='#'
+						websiteLink='#'
+					/>
+					<ProjectCard
+						title='title'
+						languages='html, css, javascript'
+						githubLink='#'
+						websiteLink='#'
+					/>
+					<ProjectCard
+						title='title'
+						languages='html, css, javascript'
+						githubLink='#'
+						websiteLink='#'
+					/>
+					<ProjectCard
+						title='title'
+						languages='html, css, javascript'
+						githubLink='#'
+						websiteLink='#'
+					/>
+					<ProjectCard
+						title='title'
+						languages='html, css, javascript'
+						githubLink='#'
+						websiteLink='#'
+					/>
+					<ProjectCard
+						title='title'
+						languages='html, css, javascript'
+						githubLink='#'
+						websiteLink='#'
+					/>
 				</section>
 			</main>
 

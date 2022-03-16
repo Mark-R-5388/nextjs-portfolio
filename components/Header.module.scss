@@ -21,9 +21,11 @@
 		transition: text-decoration 1s, color 1s;
 	}
 
-	.nav_link:hover,
-	.nav_link:focus {
+	.nav_link:hover {
 		text-decoration: underline;
+		color: #fff;
+	}
+	.nav_link:focus {
 		color: #fff;
 	}
 }

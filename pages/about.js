@@ -35,11 +35,24 @@ const About = () => {
 							/>
 						</div>
 						<div className={styles.section_one_text_container}>
-							<h1>About Me</h1>
+							<h1>Hi, I&apos;m Mark</h1>
 							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Eveniet, ad voluptatibus nemo est mollitia totam obcaecati. Rem
-								et veritatis eum!
+								My name is Mark Rose. I am a web developer and a personal
+								trainer. I gravitated towards the front end side of the
+								development world. Working with React JS and developing fully
+								responsive apps and websites
+							</p>
+							<p>
+								As a front end developer my aim is to develop my projects to be
+								not only eye catching but to be seen on multiple platforms
+								whether that is a phone or desktop. Whatever your vision is for
+								a startup, small business or a personal blog, I will deliver a
+								beautiful personal work of art.
+							</p>
+							<p>
+								Most days I am on the computer but when I am not typing away on
+								the keyboard yu can find me working out or drawing on my sketch
+								pad.
 							</p>
 						</div>
 					</div>
@@ -47,29 +60,7 @@ const About = () => {
 
 				<section className={styles.section_two}>
 					<div className={styles.section_container}>
-						<div className={styles.section_two_text_container}>
-							<h1>A Little More About Me</h1>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Eveniet, ad voluptatibus nemo est mollitia totam obcaecati. Rem
-								et veritatis eum!
-							</p>
-							<p>
-								Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-								Dolorum, velit placeat magnam ullam autem nulla sit saepe
-								voluptate nostrum sed. Perspiciatis quisquam magni voluptate rem
-								dicta ullam quae eveniet pariatur!
-							</p>
-						</div>
-						<div className={styles.section_two_image_container}>
-							{/* <Image className={styles.section_two_image} /> */}
-						</div>
-					</div>
-				</section>
-
-				<section className={styles.section_three}>
-					<div className={styles.section_container}>
-						<h1>Languages I Know</h1>
+						<h1>My Skill Set</h1>
 						<div className={styles.language_logo_container}>
 							<p>
 								<FaHtml5 />
