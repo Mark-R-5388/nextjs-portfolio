@@ -30,20 +30,21 @@ export default function Home() {
 					</div>
 					<div className={styles.text_container}>
 						<h1>Mark Rose</h1>
-						<p>Web Developer</p>
+						<h2>Web Developer</h2>
 						<div className={styles.social_icons_container}>
-							<Link href='https://github.com'>
-								<a className={styles.social_icon}>
-									<FaLinkedin />
-								</a>
-							</Link>
-							<Link href='https://linkdn.com'>
-								<a className={styles.social_icon}>
+							<Link href='https://github.com/Mark-R-5388'>
+								<a target='_blank' className={styles.social_icon}>
 									<FaGithub />
 								</a>
 							</Link>
-							<Link href='https://twitter.com'>
-								<a className={styles.social_icon}>
+							<Link href='https://www.linkedin.com/in/mark-rose-600171195/'>
+								<a target='_blank' className={styles.social_icon}>
+									<FaLinkedin />
+								</a>
+							</Link>
+
+							<Link href='https://twitter.com/mark_web_dev'>
+								<a target='_blank' className={styles.social_icon}>
 									<FaTwitter />
 								</a>
 							</Link>

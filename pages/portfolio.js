@@ -3,6 +3,10 @@ import Header from '../components/Header.js';
 import ProjectCard from '../components/ProjectCard.js';
 import Footer from '../components/Footer.js';
 import styles from '../styles/Portfolio.module.scss';
+import AMVImage from '../public/images/projects/portfolio-amvdesigns.JPG';
+import PainterWs from '../public/images/projects/portfolio-ultimatepainter.JPG';
+import ExerciseDb from '../public/images/projects/portfolio-exercisedatabase.JPG';
+import MotivtionalClock from '../public/images/projects/portfolio-motivationalclock.JPG';
 
 const Portfolio = () => {
 	return (
@@ -17,58 +21,32 @@ const Portfolio = () => {
 				<h1>Portfolio</h1>
 				<section className={styles.portfolio_section}>
 					<ProjectCard
-						title='title'
+						image={AMVImage}
+						title='AMV Designs'
 						languages='html, css, javascript'
-						githubLink='#'
-						websiteLink='#'
+						githubLink='https://github.com/Mark-R-5388/painting-store-website'
+						websiteLink='https://amvdesigns.net/'
 					/>
 					<ProjectCard
-						title='title'
-						languages='html, css, javascript'
-						githubLink='#'
-						websiteLink='#'
+						image={PainterWs}
+						title='Painter Website'
+						languages='javascript, ReactJS, NextJS'
+						githubLink='https://github.com/Mark-R-5388/nextjspainterwebsite'
+						websiteLink='https://ultimatepainter.vercel.app/'
 					/>
 					<ProjectCard
-						title='title'
-						languages='html, css, javascript'
-						githubLink='#'
-						websiteLink='#'
+						image={ExerciseDb}
+						title='Exercise Database'
+						languages='javascript, ReactJS, NextJS'
+						githubLink='https://github.com/Mark-R-5388/next-exercise-database'
+						websiteLink='https://exercise-database.vercel.app/'
 					/>
 					<ProjectCard
-						title='title'
-						languages='html, css, javascript'
-						githubLink='#'
-						websiteLink='#'
-					/>
-					<ProjectCard
-						title='title'
-						languages='html, css, javascript'
-						githubLink='#'
-						websiteLink='#'
-					/>
-					<ProjectCard
-						title='title'
-						languages='html, css, javascript'
-						githubLink='#'
-						websiteLink='#'
-					/>
-					<ProjectCard
-						title='title'
-						languages='html, css, javascript'
-						githubLink='#'
-						websiteLink='#'
-					/>
-					<ProjectCard
-						title='title'
-						languages='html, css, javascript'
-						githubLink='#'
-						websiteLink='#'
-					/>
-					<ProjectCard
-						title='title'
-						languages='html, css, javascript'
-						githubLink='#'
-						websiteLink='#'
+						image={MotivtionalClock}
+						title='Motivational Clock'
+						languages='javascript, ReactJS'
+						githubLink='https://github.com/Mark-R-5388/motivational-clock'
+						websiteLink='https://motivational-clock.netlify.app/'
 					/>
 				</section>
 			</main>

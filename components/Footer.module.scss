@@ -13,15 +13,13 @@
 	justify-content: space-between;
 	align-items: center;
 
-	p {
-		padding-left: 1rem;
+	.footer_signature {
 		font-size: 1.25rem;
 		font-weight: 600;
 	}
 }
 
 .contact_container {
-	padding-right: 1rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -29,8 +27,9 @@
 }
 
 .contact_email {
-	margin: 0 0 1rem;
-	font-size: 1.15rem;
+	margin: 0 0 1rem 0;
+	padding-left: 0;
+	font-size: 1.25rem;
 	letter-spacing: 1.2px;
 	font-weight: 600;
 }
@@ -47,5 +46,32 @@
 	.social_link:hover,
 	.social_link:focus {
 		color: #fff;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.container {
+		flex-direction: column;
+	}
+	.contact_container {
+		order: -1;
+		padding-right: 0;
+	}
+	.contact_email {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 410px) {
+	.container {
+		flex-direction: column;
+
+		.footer_signature,
+		.contact_email {
+			font-size: 1rem;
+		}
+	}
+	.contact_container {
+		order: -1;
 	}
 }

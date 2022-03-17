@@ -60,7 +60,7 @@ const About = () => {
 
 				<section className={styles.section_two}>
 					<div className={styles.section_container}>
-						<h1>My Skill Set</h1>
+						<h2>My Skill Set</h2>
 						<div className={styles.language_logo_container}>
 							<p>
 								<FaHtml5 />

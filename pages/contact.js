@@ -15,35 +15,33 @@ const Contact = () => {
 			</Head>
 			<Header />
 			<main className={styles.main}>
-				<section className={styles.section}>
-					<div className={styles.section_container}>
-						<h1>Contact Me</h1>
-						<div className={styles.contact_container}>
-							<div className={styles.contact_text_container}>
-								<h2>Reach out below to collaborate and work with me!</h2>
-								<h4>markrose@markwebdev.com</h4>
-							</div>
+				<div className={styles.section_container}>
+					<h1>Contact Me</h1>
+					<div className={styles.contact_container}>
+						<div className={styles.contact_text_container}>
+							<h2>Reach out below to collaborate and work with me!</h2>
+							<h4>markrose@markwebdev.com</h4>
+						</div>
 
-							<div className={styles.contact_social_container}>
-								<Link href='https://github.com'>
-									<a className={styles.social_icon}>
-										<FaLinkedin />
-									</a>
-								</Link>
-								<Link href='https://linkdn.com'>
-									<a className={styles.social_icon}>
-										<FaGithub />
-									</a>
-								</Link>
-								<Link href='https://twitter.com'>
-									<a className={styles.social_icon}>
-										<FaTwitter />
-									</a>
-								</Link>
-							</div>
+						<div className={styles.contact_social_container}>
+							<Link href='https://github.com/Mark-R-5388'>
+								<a target='_blank' className={styles.social_icon}>
+									<FaGithub />
+								</a>
+							</Link>
+							<Link href='https://www.linkedin.com/in/mark-rose-600171195/'>
+								<a target='_blank' className={styles.social_icon}>
+									<FaLinkedin />
+								</a>
+							</Link>
+							<Link href='https://twitter.com/mark_web_dev'>
+								<a target='_blank' className={styles.social_icon}>
+									<FaTwitter />
+								</a>
+							</Link>
 						</div>
 					</div>
-				</section>
+				</div>
 			</main>
 
 			<Footer />
