@@ -20,7 +20,7 @@ const Contact = () => {
 					<div className={styles.contact_container}>
 						<div className={styles.contact_text_container}>
 							<h2>Reach out below to collaborate and work with me!</h2>
-							<h4>markrose@markwebdev.com</h4>
+							<h4>marose5388@gmail.com</h4>
 						</div>
 
 						<div className={styles.contact_social_container}>
