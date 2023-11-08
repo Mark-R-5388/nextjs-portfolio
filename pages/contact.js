@@ -29,16 +29,12 @@ const Contact = () => {
 									<FaGithub />
 								</a>
 							</Link>
-							<Link href='https://www.linkedin.com/in/mark-rose-600171195/'>
+							<Link href='https://www.linkedin.com/in/mark-rose-it/'>
 								<a target='_blank' className={styles.social_icon}>
 									<FaLinkedin />
 								</a>
 							</Link>
-							<Link href='https://twitter.com/mark_web_dev'>
-								<a target='_blank' className={styles.social_icon}>
-									<FaTwitter />
-								</a>
-							</Link>
+
 						</div>
 					</div>
 				</div>
